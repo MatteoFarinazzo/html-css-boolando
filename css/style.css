@@ -27,12 +27,9 @@ footer{
     width: 100%;
 }
 
-.scritte-iniziali{
-    margin: 50px;
-    padding-top: 20px;
-    font-size: 20px;
+/* classi */
 
-}
+/*heder*/
 
 .logo-he{
     height: 50px;
@@ -46,6 +43,10 @@ footer{
     color: white;
 }
 
+.icons{
+    color: aliceblue;
+}
+
 
 .link-header {
     display: flex;
@@ -57,12 +58,16 @@ footer{
 .flex-center{
     display: flex;
     justify-content: space-around;
-
 }
 
-.icons{
-    color: aliceblue;
+/*main*/
+
+.scritte-iniziali{
+    margin: 50px;
+    padding-top: 20px;
+    font-size: 20px;
 }
+
 
 .flex-pag{
     margin: 2em;
@@ -78,25 +83,11 @@ footer{
     text-align: left;
 }
 
-.flex-cont-footer{
-    margin: 0 auto;
-    height:6em;
-
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .flex-te{
     padding:10px;
 
 }
 
-.foot-sect{
-    display: flex;
-    flex-direction: column;
-}
 
 .prezzo{
     color:red
@@ -106,10 +97,42 @@ footer{
     color:black
 }
 
+.grey{
+    color: rgb(141, 140, 140);
+    font-size: small;
+}
+/* footer*/
+
+
+.flex-cont-footer{
+    margin: 0 auto;
+    height:6em;
+
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.foot-sect{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.at-text{
+    text-decoration: none;
+    color:white;
+}
+
+
 /* ID */
 
 #fot-li{
     list-style: none;
+
+    display: flex;
+    gap: 10px;
 }
 
 #container-header{

@@ -19,7 +19,6 @@ main img{
 footer{
     color: white;
     background-color: #000000;
-    text-align: center;
     margin: 0 auto;
 
     position:sticky;
@@ -123,6 +122,7 @@ footer{
 .at-text{
     text-decoration: none;
     color:white;
+    font-size: small;
 }
 
 

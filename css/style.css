@@ -12,7 +12,7 @@ main{
 }
 
 main img{
-    height: 600px;
+    width: 415px;
 }
 
 
@@ -24,6 +24,10 @@ footer{
     position:sticky;
     bottom: 0;
     width: 100%;
+}
+
+footer i{
+    margin:3px;
 }
 
 /* classi */
@@ -44,6 +48,7 @@ footer{
 
 .icons{
     color: aliceblue;
+
 }
 
 
@@ -78,13 +83,16 @@ footer{
 }
 
 .flex-par{ 
-    border: solid rgb(216, 216, 216) 1px;
+    border: solid #D9D9D9 1px;
     text-align: left;
 }
 
-.flex-te{
-    padding:10px;
+.flex-par:hover{
+    transform: scale(110%);
+}
 
+.main-te{
+    padding:10px;
 }
 
 
